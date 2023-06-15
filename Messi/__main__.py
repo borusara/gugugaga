@@ -86,7 +86,7 @@ GROUP_START_IMG = "https://telegra.ph/file/fad14f70ea9e08e569abc.mp4"
     
 PM_START_TEXT = """
 *Hello {} !*
-☆ I'm *Muichiro Tokito* an anime themed group management bot [☕](https://telegra.ph/file/bf107f42c0eab6fe7c4ac.jpg)
+☆ I'm *Muichiro Tokito* an anime themed group management bot [☕](https://telegra.ph/file/6ba03071d9504119972a0.jpg)
 ────────────────────────
 × * Subject Uptime:* `{}`
 × `{}` *users, across* `{}` *Groups.*
