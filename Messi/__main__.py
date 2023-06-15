@@ -86,12 +86,12 @@ GROUP_START_IMG = "https://telegra.ph/file/fad14f70ea9e08e569abc.mp4"
     
 PM_START_TEXT = """
 *Hello {} !*
-☆ I'm *Shoushuke Komi* an anime themed group management bot [✨](https://telegra.ph/file/bf107f42c0eab6fe7c4ac.jpg)
+☆ I'm *Muichiro Tokito* an anime themed group management bot [☕](https://telegra.ph/file/bf107f42c0eab6fe7c4ac.jpg)
 ────────────────────────
 × * Subject Uptime:* `{}`
 × `{}` *users, across* `{}` *Groups.*
 ────────────────────────
-☆ Hit /help to know my abilities.
+☆ Spank /help to know my abilities.
 """
 
 buttons = [
@@ -101,12 +101,12 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(
-            text="My Officials", url=f"https://t.me/Knights_X_association"
+            text="Join Hashira !", url=f"https://t.me/hashira_association"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="+  Add Me To Your Group +", url=f"t.me/shoushuke_komi_bot?startgroup=new"),
+            text="+  Add Me To Your Group +", url=f"t.me/Tokito_Muichiro_robot?startgroup=new"),
     ],
 ]
 
@@ -116,7 +116,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting the members of @shoushuke_komi_bot \
+ You can support the project by contacting the members of @Tokito_Muichiro_robot \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
