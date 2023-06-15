@@ -377,7 +377,7 @@ def messi_about_callback(update, context):
     query = update.callback_query
     if query.data == "messi_":
         query.message.edit_text(
-            text=f"๏ I'm *Shoushuke Komi*, a powerful anime themed group management bot built to help you manage your group easily."
+            text=f"๏ I'm *Muichiro Tokito*, a powerful anime themed group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -547,7 +547,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/shoushuke_komi_bot?start=help".format(context.bot.username),
+                            url="t.me/Tokito_Muichiro_robot?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -788,7 +788,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[🗿](https://telegra.ph/file/ac45829d082da39673eb4.jpg) Hi moi dear weebs, [Shoushuke](https://t.me/shoushuke_komi_bot) is back alive. ",
+                "[🗿](https://telegra.ph/file/6ba03071d9504119972a0.jpg) yo!, I am back alive [Muichiro](https://t.me/Tokito_Muichiro_robot) is back alive. ",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
