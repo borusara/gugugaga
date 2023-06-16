@@ -436,7 +436,7 @@ def messi_about_callback(update, context):
         )
     elif query.data == "messi_support":
         query.message.edit_text(
-            text="*๏ Shoushuke support chats*"
+            text="*๏ Muichiro support chats*"
             f"\nJoin My Support Group/Channel for see or report a problem on {dispatcher.bot.first_name}.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
@@ -456,8 +456,8 @@ def messi_about_callback(update, context):
 
     elif query.data == "messi_credit":
         query.message.edit_text(
-            text=f"๏ Credis for *shoushuke*\n"
-            "\nHere Are The Developers Who Made And Gave Inspiration For The shoushuke A.I",
+            text=f"๏ Credis for *Muichiro*\n"
+            "\nHere Are The Developers Who Made And Gave Inspiration For The Muichiro A.I",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
