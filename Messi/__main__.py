@@ -788,7 +788,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[🗿](https://telegra.ph/file/6ba03071d9504119972a0.jpg) yo !, [Muichiro](https://t.me/Tokito_Muichiro_robot) is back alive. ",
+                "[🗿](https://graph.org//file/a654765a71cdef6010adc.jpg) yo !, [Muichiro](https://t.me/Tokito_Muichiro_robot) is back alive. ",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
