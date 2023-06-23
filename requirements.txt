@@ -1,6 +1,5 @@
 riddles
 openai
-wikipedia==1.4.0
 future
 emoji
 lxml
