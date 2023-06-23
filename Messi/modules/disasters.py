@@ -72,16 +72,16 @@ def addsudo(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DRAGONS:
-        message.reply_text("This member is already a Frontline Player")
+        message.reply_text("This guy is a sudo ")
         return ""
 
     if user_id in DEMONS:
-        rt += "Succesfully raised staff to player."
+        rt += "Succesfully raised this guy to demon."
         data["supports"].remove(user_id)
         DEMONS.remove(user_id)
 
     if user_id in WOLVES:
-        rt += "Succesfully raised Staff to player."
+        rt += "Succesfully raised this guy to a wolf."
         data["whitelists"].remove(user_id)
         WOLVES.remove(user_id)
 
@@ -93,7 +93,7 @@ def addsudo(update: Update, context: CallbackContext) -> str:
 
     update.effective_message.reply_text(
         rt
-        + "\nSuccessfully raised {} to a member of the team!".format(
+        + "\nSuccessfully raised {} to a member of slayers!".format(
             user_member.first_name,
         ),
     )
@@ -342,7 +342,7 @@ def removesupport(update: Update, context: CallbackContext) -> str:
         data = json.load(infile)
 
     if user_id in DEMONS:
-        message.reply_text("Requested @messi_probot_team to demote this user to Civilian")
+        message.reply_text("Requested at @shoushuke_support to demote this user to Civilian")
         DEMONS.remove(user_id)
         data["supports"].remove(user_id)
 
