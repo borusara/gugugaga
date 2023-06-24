@@ -24,15 +24,15 @@ async def carbon_func(_, message):
     carbon.close()
 
 
-MEMEK = "https://telegra.ph/file/a3e0d7ca0e40ab76a4569.jpg"
+MEMEK = "https://graph.org//file/d07509d145e5d1b609b64.jpg"
 
 @pbot.on_message(filters.command("repo"))
 async def repo(_, message):
     await message.reply_photo(
         photo=MEMEK,
-        caption=f"""✨ **Ayo !, AM Muichiro Tokito !** 
+        caption=f"""✨ **Ayo !, AM Uzumaki KAWAKI !** 
 
-**Owner of repo : [Tokito Muichiro Devs](https://t.me/shoushuke_updates/3)**
+**Owner of repo : [Kawaki uzumaki devs](https://t.me/shoushuke_updates/3)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
