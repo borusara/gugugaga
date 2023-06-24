@@ -298,7 +298,7 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nOH HO,This Guy My Grandpa"
+        text += "\n\nOH HO,kore wa Nana daime desu"
         disaster_level_present = True
     elif user.id in DEV_USERS:
         text += "\n\nDad ?, you here ?"
@@ -445,9 +445,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Muichiro Tokito's  Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Kawaki Uzumaki's  Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By @PrimesDivision 」</b>"
+    result += "\n<b>╘═━「 Powered By @hashira_association 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 
