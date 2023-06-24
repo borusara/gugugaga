@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/17d36ef59d39e5f668821.mp4" 
+GROUP_START_IMG = "https://telegra.ph/file/516dc5f1c6f66a408d08f.mp4" 
     
     
 PM_START_TEXT = """
 *Hello {} !*
-☆ I'm *Muichiro Tokito* an anime themed group management bot [☕](https://telegra.ph/file/6ba03071d9504119972a0.jpg)
+☆ I'm *Kawaki Uzumaki* an anime themed group management bot [🗿](https://graph.org//file/bd1ce97a12dfff5f848ae.jpg)
 ────────────────────────
 × * Subject Uptime:* `{}`
 × `{}` *users, across* `{}` *Groups.*
@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="+  Add Me To Your Group +", url=f"t.me/Tokito_Muichiro_robot?startgroup=new"),
+            text="+  Add Me To Your Group +", url=f"http://t.me/Uzumaki_Kawaki_Bot?startgroup=new"),
     ],
 ]
 
@@ -116,7 +116,7 @@ Click on the button bellow to get description about specifics command."""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting the members of @Tokito_Muichiro_robot \
+ You can support the project by contacting the members of @Uzumaki_Kawaki_Bot \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -377,7 +377,7 @@ def messi_about_callback(update, context):
     query = update.callback_query
     if query.data == "messi_":
         query.message.edit_text(
-            text=f"๏ I'm *Muichiro Tokito*, a powerful anime themed group management bot built to help you manage your group easily."
+            text=f"๏ I'm *Kawaki Uzumaki*, a powerful anime themed group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
@@ -457,7 +457,7 @@ def messi_about_callback(update, context):
     elif query.data == "messi_credit":
         query.message.edit_text(
             text=f"๏ Credis for *Muichiro*\n"
-            "\nHere Are The Developers Who Made And Gave Inspiration For The Muichiro A.I",
+            "\nHere Are The Developers Who Made And Gave Inspiration For Kawaki A.I",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -547,7 +547,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Help",
-                            url="t.me/Tokito_Muichiro_robot?start=help".format(context.bot.username),
+                            url="http://t.me/Uzumaki_Kawaki_Bot?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -788,7 +788,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}",
-                "[🗿](https://graph.org//file/a654765a71cdef6010adc.jpg) yo !, [Muichiro](https://t.me/Tokito_Muichiro_robot) is back alive. ",
+                "[👀](https://graph.org//file/9127387d070a000da162a.jpg) yo !, [Kawaki](http://t.me/Uzumaki_Kawaki_Bot) is back alive. ",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
